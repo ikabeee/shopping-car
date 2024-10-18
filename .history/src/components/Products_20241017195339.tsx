@@ -17,7 +17,7 @@ const Products = () => {
             const result = await response.json()
             setProducts(result)
             setLoading(false)
-            console.log(result)
+            console.log(res)
     }
     useEffect(() => {
         showProducts();
@@ -31,15 +31,15 @@ const Products = () => {
     )
     return (
         <>
-            <h1>Lista de Productos</h1>
             {
-                products.map((item,index)=>(
+                products.map((item, index) => {
                     <>
-                    <h3>{item.title}</h3>
+                    <h2>{item.title}</h2>
                     <h4>{item.price}</h4>
-                    <img src={item.image} />
+                    <img src={item.image} alt="" />
                     </>
-                ))
+
+                })
             }
         </>
     )

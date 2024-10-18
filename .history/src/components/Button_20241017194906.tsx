@@ -10,7 +10,7 @@ const Button=()=>{
         <>
         {/*<>Main Tags</> */}
         
-        <button className="btn btn primary" onClick={showNameStudent}> {nameStudent}</button>
+        <button type="button" className="btn btn primary" onClick={showNameStudent}> {nameStudent}</button>
         </>
     )
 }
