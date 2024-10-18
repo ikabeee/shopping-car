@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-
+const
 const Home = () => {
     const [data, setData] = useState([])
     const getProducts = async () => {
