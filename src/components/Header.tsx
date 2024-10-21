@@ -4,7 +4,7 @@ const Header = () => {
 
     return (
         <>
-            <nav className="navbar navbar-expand-lg bg-primary">
+            <nav className="navbar navbar-expand-lg bg-primary fixed-top">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#"> Market Foro </a>
                     <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
@@ -20,6 +20,10 @@ const Header = () => {
                             
                             <li className="nav-item">
                                 <Link className="nav-link" to="/about-us"> Nosotros </Link>
+                            </li>
+
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/stores"> Tiendas </Link>
                             </li>
                         
                         </ul>
