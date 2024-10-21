@@ -7,6 +7,7 @@ import Header from './components/Header'
 import Home from './pages/Home';
 import Cart from './pages/Cart';
 import About from './pages/About';
+import Stores from './pages/Stores';
 
 
 
@@ -21,7 +22,9 @@ function App() {
         <Route path='/' element={<Home/>}/>
         <Route path='/cart' element={<Cart/>}/>
         <Route path='/about-us' element={<About/>} />
-      </Routes>
+        <Route path='/stores' element={<Stores/>} />
+       </Routes>
+        
    
     </>
   )
